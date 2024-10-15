@@ -1,0 +1,36 @@
+
+.box {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.box1 {
+    background-color: #ff6347; /* Tomat */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 150px;
+    border: 15px dashed #000;
+    margin: 5px;
+}
+.box2 {
+    background-color: #0022e4; /* Stålblå */
+    position: relative;
+    width: 500px;
+    height: 30px;
+    top: 50px;
+    left: 50px;
+    padding: 50px;
+    border: 10px solid #010606;
+    margin: 10px;
+}
+.box3 {
+    background-color: #32cd32; /* Limegrønn */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border: 5px solid #000;
+    margin: 15px;
+}
